@@ -1,0 +1,35 @@
+.categories{
+  margin-bottom: 30px ;
+  
+  
+   .category  {
+    background-color: rgb(249, 223, 223) ;
+ margin-left: 20px;
+ width: 22%;
+ margin: auto;
+ border-radius: 7px;
+ display: flex;
+ height: 20vh;
+ padding-top: 30px;
+ box-sizing: border-box;
+ font-size: 12px;
+ font-weight: bold;
+ color: black;
+ cursor: pointer;
+ text-decoration: none;
+ transition: transform 0.5s;
+
+ &:hover{
+    transform: translatey(-7%);
+ }
+
+ 
+    img{
+       width: 40px;
+       vertical-align: middle;
+    
+   
+     
+    }
+   }
+}

@@ -1,0 +1,41 @@
+.mainDiv {
+  text-align: center;
+  margin-top: 80px;
+}
+.mainDiv h1 {
+  font-weight: bolder;
+  margin-bottom: 20px;
+}
+.mainDiv .links {
+  margin-bottom: 30px;
+}
+.mainDiv .links ul {
+  padding: 5px;
+  display: block;
+  border-radius: 10px;
+  justify-content: center;
+}
+.mainDiv .links ul li {
+  list-style-type: none;
+  margin-right: 5%;
+}
+.mainDiv .links ul li .link {
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  padding: 4px 5px;
+  border-radius: 6px;
+}
+.mainDiv .links ul li .link img {
+  vertical-align: middle;
+}
+.mainDiv .links ul li .activelink {
+  background-color: white;
+  color: red;
+  text-align: center;
+  text-decoration: none;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 5px;
+}/*# sourceMappingURL=products.module.css.map */

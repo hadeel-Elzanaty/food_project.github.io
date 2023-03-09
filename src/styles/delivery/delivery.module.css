@@ -1,0 +1,23 @@
+.mainDiv {
+  margin-top: 90px;
+}
+.mainDiv .prag {
+  color: gray;
+  text-align: center;
+  line-height: 14px;
+}
+.mainDiv .services {
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: auto auto auto;
+  text-align: center;
+  font-size: 10px;
+  margin-top: 80px;
+}
+.mainDiv .services h4 {
+  font-weight: bolder;
+  font-size: 16px;
+}
+.mainDiv .services p {
+  color: rgb(100, 100, 100);
+}/*# sourceMappingURL=delivery.module.css.map */

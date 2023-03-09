@@ -1,0 +1,27 @@
+.card {
+  width: 230px;
+  height: 230px;
+  border-color: rgb(243, 188, 188);
+  border-radius: 0%;
+  padding: 10px 0px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+.card h6 {
+  font-weight: bolder;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+.card article {
+  display: flex;
+  justify-content: space-between;
+}
+.card article p {
+  color: red;
+  margin-top: 6px;
+  font-weight: bold;
+}
+.card article .btn {
+  font-size: 12px;
+  height: 31px;
+}/*# sourceMappingURL=product.module.css.map */

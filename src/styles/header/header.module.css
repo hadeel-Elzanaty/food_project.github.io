@@ -1,0 +1,88 @@
+@media (max-width: 1000px) {
+  .mainDiv {
+    display: block;
+    text-align: center;
+  }
+  .mainDiv div {
+    width: 100%;
+  }
+  .mainDiv div h5 {
+    font-weight: bold;
+    font-size: 10px;
+  }
+  .mainDiv div h2 {
+    color: rgb(205, 8, 8);
+  }
+  .mainDiv div h2 span {
+    color: black;
+  }
+  .mainDiv div p {
+    font-size: 12px;
+    color: gray;
+  }
+  .mainDiv div div {
+    width: 70%;
+    margin: auto;
+  }
+  .mainDiv div h6 {
+    margin: auto;
+    margin-right: 15px;
+    font-size: 12px;
+  }
+  .mainDiv div h6 span {
+    color: white;
+    background-color: rgb(205, 8, 8);
+    border-radius: 50%;
+    padding: 1.5px 2.5px 3px 2px;
+    margin-right: 5px;
+  }
+}
+@media (min-width: 1000px) {
+  .mainDiv {
+    width: 90%;
+    margin-top: 5%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 5%;
+  }
+  .mainDiv div {
+    width: 45%;
+  }
+  .mainDiv div h5 {
+    font-weight: bold;
+    font-size: 12px;
+  }
+  .mainDiv div h2 {
+    color: rgb(205, 8, 8);
+    font-weight: bold;
+  }
+  .mainDiv div h2 span {
+    color: black;
+  }
+  .mainDiv div p {
+    color: gray;
+  }
+  .mainDiv div div .btn1 {
+    margin-right: 18px;
+  }
+  .mainDiv div div .btn1:hover {
+    background-color: black;
+  }
+  .mainDiv div div .btn2:hover {
+    background-color: white;
+    color: rgb(205, 8, 8);
+  }
+  .mainDiv div h6 {
+    margin-right: 25px;
+    font-weight: 900;
+    font-size: 12px;
+  }
+  .mainDiv div h6 span {
+    color: white;
+    background-color: rgb(205, 8, 8);
+    border-radius: 50%;
+    padding: 1.5px 2.5px 3px 2px;
+    margin-right: 5px;
+  }
+}/*# sourceMappingURL=header.module.css.map */
