@@ -1,27 +1,95 @@
-.categories {
-  margin-bottom: 30px;
+@media (min-width: 900px) {
+  .categories {
+    margin-bottom: 30px;
+  }
+  .categories .category {
+    background-color: rgb(249, 223, 223);
+    margin-left: 20px;
+    width: 22%;
+    margin: auto;
+    border-radius: 7px;
+    display: flex;
+    height: 20vh;
+    padding-top: 30px;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.5s;
+  }
+  .categories .category:hover {
+    transform: translatey(-7%);
+  }
+  .categories .category img {
+    width: 40px;
+    vertical-align: middle;
+  }
 }
-.categories .category {
-  background-color: rgb(249, 223, 223);
-  margin-left: 20px;
-  width: 22%;
-  margin: auto;
-  border-radius: 7px;
-  display: flex;
-  height: 20vh;
-  padding-top: 30px;
-  box-sizing: border-box;
-  font-size: 12px;
-  font-weight: bold;
-  color: black;
-  cursor: pointer;
-  text-decoration: none;
-  transition: transform 0.5s;
+@media (max-width: 900px) {
+  .categories {
+    margin-bottom: 30px;
+  }
+  .categories .category {
+    background-color: rgb(249, 223, 223);
+    margin-left: 20px;
+    width: 40%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    display: flex;
+    height: 20vh;
+    box-sizing: border-box;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.5s;
+    text-align: center;
+  }
+  .categories .category:hover {
+    transform: translatey(-7%);
+  }
+  .categories .category div {
+    margin: auto;
+  }
+  .categories .category div img {
+    width: 40px;
+    vertical-align: middle;
+  }
 }
-.categories .category:hover {
-  transform: translatey(-7%);
-}
-.categories .category img {
-  width: 40px;
-  vertical-align: middle;
+@media (max-width: 400px) {
+  .categories {
+    margin-bottom: 30px;
+  }
+  .categories .category {
+    background-color: rgb(249, 223, 223);
+    margin-left: 20px;
+    width: 70%;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 7px;
+    display: flex;
+    height: 20vh;
+    box-sizing: border-box;
+    font-size: 16px;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    transition: transform 0.5s;
+    text-align: center;
+  }
+  .categories .category:hover {
+    transform: translatey(-7%);
+  }
+  .categories .category div {
+    margin: auto;
+  }
+  .categories .category div img {
+    width: 50px;
+    vertical-align: middle;
+  }
 }/*# sourceMappingURL=foodtypes.module.css.map */
