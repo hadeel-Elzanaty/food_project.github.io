@@ -29,11 +29,11 @@ const[showlist,setShowlist]=useState(false)
                 </div>
                 <div className={styles.thirdNav}>
 
-                    <Link className={styles.cart}  >
+                    <Link href="/" className={styles.cart}  >
                         <MdCardTravel />
                         <span>0</span>
                     </Link>
-                    <Link className="text-dark me-3 fs-5  " >
+                    <Link  href="/" className="text-dark me-3 fs-5  " >
 
                         <MdPersonOutline />
                     </Link>
